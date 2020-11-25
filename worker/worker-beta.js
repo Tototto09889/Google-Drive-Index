@@ -2,10 +2,10 @@
 * A Script Redesigned by Parveen Bhadoo from GOIndex at https://github.com/ParveenBhadooOfficial/Bhadoo-Drive-Index
 */
 const authConfig = {
-	"siteName": "Bhadoo Drive Index", // Website name
+	"siteName": "Project", // Website name
 	"client_id": "58094879805-4654k2k5nqdid5bavft7fvea5u9po0t1.apps.googleusercontent.com",
 	"client_secret": "ZNPZ-vS6N9Zjsyb_sNMZmXHL",
-	"refresh_token": "", // Authorize token
+	"refresh_token": "1//0eGI2t1OI_SjMCgYIARAAGA4SNwF-L9Ir7UchSlReCJYJN7uOXklwP9UXjNrbvS5E0cuKCtFd1Sola_LoihWCNXc3P-cC9daZkJ8", // Authorize token
 	/**
 	 * Set up multiple Drives to display; add multiples by format
 	 * [id]: It can be the team disk id, subfolder id, or "root" (representing the root directory of personal disk);
@@ -19,13 +19,20 @@ const authConfig = {
 	 * No Basic Auth disk is required, just keep user and pass empty at the same time. (No need to set it directly)
 	 * [Note] For the disk whose id is set to the subfolder id, the search function will not be supported (it does not affect other disks).
 	 */
-	"roots": [{
-		"id": "",
-		"name": "Cloud Zero",
-		"user": "",
-		"pass": "",
-		"protect_file_link": false
-	}],
+		"roots": [
+    {
+      "id": "0AAR0Np_uRBUaUk9PVA",
+      "name": "Website Project Database 1",
+    },
+    {
+      "id": "0APiJ9-RSHGKLUk9PVA",
+      "name": "Website Project Database 2",
+    },
+    {
+      "id": "0ALXdeHZcFvisUk9PVA",
+      "name": "Website Project Share Public",
+    }
+  ],
 	/**
 	 * The number displayed on each page of the file list page. [Recommended setting value is between 100 and 1000];
 	 * If the setting is greater than 1000, it will cause an error when requesting drive api;
@@ -59,11 +66,11 @@ const uiConfig = {
 	"dark_mode": true, // switch between light or dark themes
 	"version": "2.0.1", // don't touch this one. get latest code using generator at https://github.com/ParveenBhadooOfficial/Bhadoo-Drive-Index
 	"logo_image": false, // true if you're using image link in next option.
-	"logo_link_name": "Bhadoo Drive Index", // if logo is true then link otherwise just text for name
-	"contact_link": "https://t.telegram.ind.in/BhadooCloud", // Link to Contact Button on Menu
-	"copyright_year": "2050", // year of copyright, can be anything like 2015 - 2020 or just 2020
-	"company_name": "Bhadoo Cloud", // Name next to copyright
-	"company_link": "https://t.telegram.ind.in/BhadooCloud", // link of copyright name
+	"logo_link_name": "Database Website Index", // if logo is true then link otherwise just text for name
+	"contact_link": "https://t.telegram.ind.in/zxcxzcx", // Link to Contact Button on Menu
+	"copyright_year": "2020", // year of copyright, can be anything like 2015 - 2020 or just 2020
+	"company_name": "Rahman", // Name next to copyright
+	"company_link": "https://t.telegram.ind.in/zxcxzcx", // link of copyright name
 	"credit": true, // Set this to true to give us credit
 };
 
